@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Esther</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+    <!-- menu Nav -->
+  <div class="container">
+   <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Portfolio </p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">              
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Accueil</a>
+                        <div class="circle"></div>
+                    </li>                   
+                        <li class="nav_list">
+                            <a href="#about" class="nav-link"><span>À</span>propos</a>
+                            <div class="circle"></div>
+                        </li>                      
+                            <li class="nav_list">
+                                <a href="#projects" class="nav-link">Projets</a>
+                                <div class="circle"></div>
+                            </li>                         
+                                <li class="nav_list">
+                                    <a href="#contact" class="nav-link">Contact</a>
+                                    <div class="circle"></div>
+                                </li>
+            </ul>
+        </div>
+          <!-- Dark Mode -->
+  <div class="mode">
+    <div class="moon-sun" id="toggle-switch">
+        <i class="fa fa-moon" id="moon"></i>
+        <i class="fa fa-sun" id="sun"></i>
+    </div>
+  </div>
+  <div class="nav-menu-btn">
+    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+  </div>
+   </nav>
+   <!--main-->
+   <main class="wrapper">
+    <section class="featured-box" id="home">
+        <div class="featured-text">
+            <div class="hello">
+                <p>Salutation</p>
+            </div>
+            <div class="featured-name">
+                <span class="typedText"></span>
+            </div>
+            <div class="text-info">
+                <p>Mon nom est Esther , je suis une videaste freelance avec plus de 6 mois d'expérience.</p>
+            </div>
+            <div class="text-btn">
+                <button class="btn hire-btn" onclick="openContactForm()">Embauchez-moi</button>
+                <button class="btn">
+                    <a href="cv/Mon CV.pdf" download="Esther_CV mon CV.pdf" style="text-decoration: none; color: inherit;">
+                        Télécharger le CV <i class="uil uil-file"></i>
+                    </a>
+                </button>
+            </div>
+            
+            <script>
+                function openContactForm() {
+                    // Exemple : Rediriger vers la section contact
+                    document.getElementById('contactForm').scrollIntoView({ behavior: 'smooth' });
+                }
+            </script>
+            
+            <div class="socical_icons">
+                <div class="icon_cercle"></div>
+                <div class="icon"><a  href="https://api.whatsapp.com/send/?phone=261347173585&text=Bonjour,%20je%20souhaite%20plus%20d'informations&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"><i class="uil uil-whatsapp"></i></a></div>
+                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100072280305287" target="_blank" rel="noopener noreferrer"><i class="uil uil-facebook"></i></a></div>
+                <div class="icon"><a href="mailto:estherjeanne683@gmail.com?subject=Discussion%20avec%20vous&body=Bonjour,%20je%20souhaite%20commencer%20une%20discussion%20avec%20vous." target="_blank" rel="noopener noreferrer"><i class="uil uil-envelope"></i></a></div>
+                <div class="icon"> <a href="https://github.com/Esther22-web" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+        </div>
+        <div class="featured-image">
+            <div class="image">
+                <img src="Esy.JPG" alt="">
+            </div>
+        </div>
+    </section>
+    <!--about box-->
+    <section class="section" id="about">
+        <div class="top-header">
+            <h1>À propos de moi</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <figure class="about-me">
+                        <figcaption>
+                          <img src="Esy.JPG" class="profile"/> 
+                          <h2>Videaste</h2>
+                          <p>Mon nom est Ravololonirina Esther, je suis une Videaste freelance avec plus de 6 mois d'expérience.</p> 
+                    </figure>
+                    <button class="about-me-btn" onclick="openContactForm()">Embauchez-moi</button>
+                </div>
+            </div>
+            <div class="skill1">
+                <div class="tete1">
+                    <h2>Outils</h2>
+                </div>
+                
+                <div class="skill-box1">
+                    <span class="title1">Adobe Premier Pro</span>
+                    <div class="skill-bar1 ">
+                        <span class="skill-per1 html1">
+                            <span class="tooltip1">75%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box1">
+                    <span class="title1">Capcut</span>
+                    <div class="skill-bar1 ">
+                        <span class="skill-per1 css1">
+                            <span class="tooltip1">60%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box1">
+                    <span class="title1">Adobe Audition</span>
+                    <div class="skill-bar1 ">
+                        <span class="skill-per1 php1">
+                            <span class="tooltip1">70%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box1">
+                    <span class="title1">Trello</span>
+                    <div class="skill-bar1">
+                        <span class="skill-per1 python1">
+                            <span class="tooltip1">30%</span>
+                        </span>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="skill">
+                <div class="tete">
+                    <h2>Langage de prommation</h2>
+                </div>             
+                <div class="skill-box">
+                    <span class="title">HTML</span>
+                    <div class="skill-bar ">
+                        <span class="skill-per html">
+                            <span class="tooltip">80%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">CSS</span>
+                    <div class="skill-bar ">
+                        <span class="skill-per css">
+                            <span class="tooltip">60%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">PHP</span>
+                    <div class="skill-bar ">
+                        <span class="skill-per php">
+                            <span class="tooltip">50%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">JavaScripts</span>
+                    <div class="skill-bar">
+                        <span class="skill-per python">
+                            <span class="tooltip">30%</span>
+                        </span>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <!--Projects box-->
+    <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projet</h1>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Terminé</h3>
+                <label> documentaire, clip video +3</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Client</h3>
+                <label> client plus de +5</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Expérience</h3>
+                <label>6 mois dans le monde de l'audio visuelle </label>
+            </div>
+        </div>
+    </section>
+    <!--contact box-->
+    <section class="section" id="contact">
+        <div class="top-header">
+            <h1>Travaillons ensemble</h1>
+            <span>avez-vous un projet en tête ? Contactez-moi ici.</span>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="contact-info">
+                    <h2>Trouvez-moi<i class="uil uil-corner-rigth-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i>email:estherjeanne683@gmail.com</p>
+                    <p><i class="uil uil-phone"></i>Tel:0347173585</p>
+                </div>
+            </div>
+            <div class="col">
+                <form id="contactForm">
+                    <div class="form-control">
+                        <div class="form-inputs">
+                            <input type="text" id="name" class="input-field" placeholder="Votre nom" required>
+                            <input type="email" id="email" class="input-field" placeholder="Email" required>
+                        </div>
+                        <div class="test-area">
+                            <input type="text" id="subject" class="input-subject" placeholder="Objet" required>
+                            <textarea id="message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button type="button" class="btn" onclick="sendEmail()">Envoyer <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <script>
+                function sendEmail() {
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const subject = document.getElementById('subject').value;
+                    const message = document.getElementById('message').value;
+            
+                    const mailtoLink = `mailto:estherjeanne@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+                        `Nom: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+                    )}`;
+            
+                    window.location.href = mailtoLink;
+                }
+            </script>
+            
+        </div>
+    </section>
+   </main>
+   <!-- footer -->
+   <footer>
+    <div class="middle-footer">
+        <ul class="footer-menu">
+            <li class="footer_menu_list"><a href="#home">Accueil</a></li>
+            <li class="footer_menu_list"><a href="#about">À propos</a></li>
+            <li class="footer_menu_list"><a href="#projects">Projets</a></li>
+            <li class="footer_menu_list"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="footer-socical-icons">
+        <div class="icon"> <a href="https://me.wa/261347173585" target="_blank" rel="noopener noreferrer"><i class="uil uil-whatsapp"></i></a> </div>
+        <div class="icon"><a href="https://www.facebook.com/profile.php?id=100072280305287" target="_blank" rel="noopener noreferrer"><i class="uil uil-facebook"></i></a></div>
+        <div class="icon"><a href="mailto:estherjeanne683@gmail.com" target="_blank" rel="noopener noreferrer"><i class="uil uil-envelope"></i></a></div>
+        <div class="icon"><a href="https://github.com/Esther22-web" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i></a></div>
+    </div>
+    <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Esther</a> - Tous droits réservés 2025</p>
+    </div>
+</footer>
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+<script src="portfolio.js"></script>
+</body>
+</html>
